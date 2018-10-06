@@ -8,13 +8,6 @@ const port = 10124;
 let seed = 826;
 let activeClient = 0;
 
-const TEST_CASE = '{' +
-    '"name":"aaa.txt",' +
-    '"info":"TeStEsT"' +
-    '}';
-
-console.log(JSON.parse(TEST_CASE).name);
-
 
 const clientType =
 {
